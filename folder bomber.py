@@ -4,10 +4,10 @@ import os
 import threading
 from random import *
 from tkinter import *
-import rand_string.rand_string as rand
+import rand_string.rand_string as rand  #pip install rand-string
 from win32con import PATINVERT
 from win32gui import *
-from win32api import *
+from win32api import *  #pip install pypiwin32
 from win32file import *
 
 
@@ -52,7 +52,7 @@ try:
         os.mkdir(y)
         i += 1
 except:
-    print("ERRO")
+    print("ERRORE")
 
 desk = GetDC(0)
 x = GetSystemMetrics(0)
