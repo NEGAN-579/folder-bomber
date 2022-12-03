@@ -10,16 +10,16 @@ nothing abuse of this program is not related to the developer!
 
 # :wrench: about this tool:
 
-This tool can create folders until the target system slows down.
+This tool can wax folders and Windows and graphic effects.
 
 # :world_map: how to use this tool?!
 
 - you should download "folder bomber.py" from my github account.
 - install rand-string library with `python3 pip install rand-string` or `python install rand-string` or `pip install rand-string` syntaxes in cmd or terminal.
-- then, open "folder nomber.py" file with vscode or notpad++ or...
-- now you should write the path that you want to create folders in it.
-- if you want just to watch how the tool works, don't clear the hashes (#)!
-- lines of 13 and 14 is very danger and i recommend do not run that part of code in any systems!
+
+- install win32api library with `pip install pypiwin32`.
+
+- install rotatescreen library with `pip install rotate-screen`.
 
 # future:
 
